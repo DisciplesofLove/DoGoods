@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DoGoods - A community-driven platform designed to reduce food waste and combat hunger by connecting individuals, businesses, and organizations.">
+    <meta name="keywords" content="food sharing, food waste reduction, community platform, sustainable food, food donations, food trading">
+    <meta property="og:title" content="DoGoods - Reduce Food Waste, Share With Community">
+    <meta property="og:description" content="Join DoGoods to share surplus food, reduce waste, and help those in need. Connect with local food donors and recipients.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="DoGoods - Reduce Food Waste, Share With Community">
+    <meta name="twitter:description" content="Join DoGoods to share surplus food, reduce waste, and help those in need. Connect with local food donors and recipients.">
+    <title>DoGoods - Reduce Food Waste, Share With Community</title>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/components.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Database Utils -->
+    <script type="text/babel" src="utils/db.js"></script>
+    <script type="text/babel" src="utils/database.js"></script>
+    <script type="text/babel" src="utils/initDatabase.js"></script>
+    
+    <!-- Components -->
+    <script type="text/babel" src="components/common/Header.js"></script>
+    <script type="text/babel" src="components/common/Footer.js"></script>
+    <script type="text/babel" src="components/common/Button.js"></script>
+    <script type="text/babel" src="components/common/Input.js"></script>
+    <script type="text/babel" src="components/common/Card.js"></script>
+    <script type="text/babel" src="components/common/Avatar.js"></script>
+    
+    <!-- Layout Components -->
+    <script type="text/babel" src="components/layout/MainLayout.js"></script>
+    <script type="text/babel" src="components/layout/Sidebar.js"></script>
+    
+    <!-- Feature Components -->
+    <script type="text/babel" src="components/food/FoodCard.js"></script>
+    <script type="text/babel" src="components/food/FoodList.js"></script>
+    <script type="text/babel" src="components/food/FoodForm.js"></script>
+    <script type="text/babel" src="components/food/BulkUploadForm.js"></script>
+    <script type="text/babel" src="components/food/FeaturedListings.js"></script>
+    <script type="text/babel" src="components/food/CategoryCard.js"></script>
+    <script type="text/babel" src="components/trade/TradeCard.js"></script>
+    <script type="text/babel" src="components/trade/TradeList.js"></script>
+    <script type="text/babel" src="components/user/UserProfile.js"></script>
+    <script type="text/babel" src="components/user/UserStore.js"></script>
+    
+    <!-- Utils -->
+    <script type="text/babel" src="utils/api.js"></script>
+    <script type="text/babel" src="utils/aiAgent.js"></script>
+    <script type="text/babel" src="utils/helpers.js"></script>
+    
+    <!-- Pages -->
+    <script type="text/babel" src="pages/HomePage.js"></script>
+    <script type="text/babel" src="pages/ShareFoodPage.js"></script>
+    <script type="text/babel" src="pages/FindFoodPage.js"></script>
+    <script type="text/babel" src="pages/TradingHubPage.js"></script>
+    <script type="text/babel" src="pages/CommunityPage.js"></script>
+    <script type="text/babel" src="pages/ProfilePage.js"></script>
+    <script type="text/babel" src="pages/SignupPage.js"></script>
+    <script type="text/babel" src="pages/LoginPage.js"></script>
+    <script type="text/babel" src="pages/HowItWorks.js"></script>
+    <script type="text/babel" src="pages/Blog.js"></script>
+    <script type="text/babel" src="pages/Success.js"></script>
+    <script type="text/babel" src="pages/Impact.js"></script>
+    <script type="text/babel" src="pages/TermsOfService.js"></script>
+    <script type="text/babel" src="pages/PrivacyPolicy.js"></script>
+    <script type="text/babel" src="pages/CookiesPolicy.js"></script>
+    
+    <!-- Admin Pages -->
+    <script type="text/babel" src="pages/admin/AdminLogin.js"></script>
+    <script type="text/babel" src="pages/admin/AdminDashboard.js"></script>
+    <script type="text/babel" src="pages/admin/UserManagement.js"></script>
+    <script type="text/babel" src="pages/admin/ContentModeration.js"></script>
+    <script type="text/babel" src="pages/admin/FoodDistributionManagement.js"></script>
+    <script type="text/babel" src="pages/admin/DistributionAttendees.js"></script>
+    <script type="text/babel" src="pages/admin/AdminLayout.js"></script>
+    <script type="text/babel" src="pages/admin/AdminSidebar.js"></script>
+    
+    <!-- Main App -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
